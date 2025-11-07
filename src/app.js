@@ -32,7 +32,7 @@ app.use(helmet());
 
 // OR specify options for CORS
 app.use(cors({
-  origin: 'https://www.yashodipbeldar.engineer', // Allow requests from this origin
+  origin: 'https://yashodip.developerverse.tech', // Allow requests from this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
   credentials: true // Allow credentials (if necessary)
